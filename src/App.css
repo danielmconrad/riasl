@@ -1,0 +1,36 @@
+:local .App {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+:local .choices {
+  display: flex;
+}
+
+:local .choice {
+  margin: 0 .5rem;
+  cursor: pointer;
+  width: 6em;
+}
+
+:local .choice .bait {
+  display: inline;
+}
+
+:local .choice .switch {
+  display: none;
+}
+
+:local .choice:hover .bait {
+  display: none;
+}
+
+:local .choice:hover .switch {
+  display: inline;
+}
+
+:local .results {
+  margin: 3rem 0 0;
+}
